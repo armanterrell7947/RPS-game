@@ -1,0 +1,50 @@
+
+* {
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(243, 167, 179);
+
+}
+header {
+    display: flex;
+    text-align: center;
+    position: center;
+}
+
+h3, h2 {
+    color: red;
+    background-color: pink;
+}
+
+header {
+    display: inline;
+    width: 103%;
+}
+
+
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}    
+
+/*You know what, this worked in aligning my buttons so I'm not going to mess with it, BE SURE TO ANIMATE THE BUTTONS ON EVERY CLICK AS WELL!!! */
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 5px 5px;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    transition: 0.4s;
+
+}
+
+button:hover {
+    box-shadow: 0 10px 20px 0 rgba(182, 168, 168, 0.2), 0 6px 20px 0 rgba(247, 239, 239, 0.19);
+    color: rgb(252, 238, 238);
+    font-size: 11px;
+}
